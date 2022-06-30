@@ -12,7 +12,7 @@ bool func(x){
     int c = x%10;
     int b = (x~/10)%10;
     int a = (x~/10)~/10;
-    return a<b>c||a>b<c;
+    return a<b&&b>c||a>b&&b<c;
 }
 void main() {
     print(func(121));
