@@ -12,5 +12,5 @@ bool func(a,b){
     return ((a%2)==1&&(b%2)==1);
 }
 void main() {
-    print(func(5,4));
+    print(func(5,8));
 }
