@@ -8,11 +8,8 @@ Given two integers a, b,  check the following statement "Each of the numbers 'a'
     Returns:
         bool: answer
 */
-int func(a,b){
-    String x = "Each of the numbers 'a' and 'b' is negative"
-    if (a<0 && b<0){
-        return x;
-    }
+bool func(a,b){
+    (a<0 && b<0)
 }
 void main() {
     print(func(5,9));
