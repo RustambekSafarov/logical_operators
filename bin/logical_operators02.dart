@@ -8,4 +8,12 @@ Given two integers a, b,  check the following statement "Each of the numbers 'a'
     Returns:
         bool: answer
 */
-void main() {}
+int func(a,b){
+    if (a>0&&b>0){
+        return true;
+    }
+    return false;
+}
+void main() {
+    print(func(57,83));
+}
