@@ -9,7 +9,7 @@ Given two integers a, b,  check the following statement "Each of the numbers 'a'
         bool: answer
 */
 bool func(a,b){
-    (a<0 && b<0)
+    (a<0 && b<0);
 }
 void main() {
     print(func(5,9));
