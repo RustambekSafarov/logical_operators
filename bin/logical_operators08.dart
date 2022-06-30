@@ -8,5 +8,9 @@ Create a function argument  called a, b of type int
     Returns:
         bool: answer
 */
-
-void main() {}
+bool func(a,b){
+    return a%2==0||b%2==0;
+}
+void main() {
+    print(func(5,9));
+}
