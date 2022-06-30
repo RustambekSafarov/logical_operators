@@ -7,5 +7,9 @@ Given a three-digit integer a,  check the following statement "All digits sum is
     Returns:
         bool: answer
 */
-
-void main() {}
+bool func(a){
+    return ((a%10)+(a~/10))%2==1;
+}
+void main() {
+    print(func(39));
+}
