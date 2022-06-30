@@ -8,11 +8,8 @@ Given two integers a, b,  check the following statement "Each of the numbers 'a'
     Returns:
         bool: answer
 */
-int func(a,b){
-    if (a>0&&b>0){
-        return true;
-    }
-    return false;
+bool func(a,b){
+    (a>0&&b>0)
 }
 void main() {
     print(func(57,83));
