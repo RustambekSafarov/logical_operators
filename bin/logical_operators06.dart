@@ -9,8 +9,8 @@ Given two integers a, b,  check the following statement "At least one of the num
         bool: answer
 */    
 bool func(a,b){
-    return a>=0&&a<=0&&b>=0&&b<=0;
+    return a>0||b>0;
 }    
 void main() {
-    print(func(4,5));
+    print(func(4,-5));
 }
