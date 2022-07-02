@@ -19,7 +19,7 @@ bool func(n){
     int m = ((a~/100)~/10)~/10;
     int birlar = x+y+z+n+m;
     int nollar = 5-birlar;
-    if (x>0&&m==1&&birlar>nollar){
+    if (x > 0 && m == 1 && birlar > nollar){
         return true;
     }
     return false;
